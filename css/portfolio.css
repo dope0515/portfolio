@@ -1,0 +1,96 @@
+/*header*/
+header {
+    width: 100%;
+    height:auto;
+}
+
+.header_container {
+    width: 100%;
+    height: 80%;
+    background-image: url(../img/portfolio.jpg); background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.header_container h1 {margin-left: 5%;}
+
+/*main*/
+.grid_container {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.grid_content_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img_size {width: 100%;}
+
+.content_container {
+    width: 30%;
+    margin-bottom: 30px; 
+    position: relative;
+}
+
+.content_container:hover {
+    cursor: pointer;
+}
+
+.content_container:hover .img_container {
+    transform: translateY(-100%) rotateX(90deg);
+}
+
+.img_container {
+    width: 100%;
+    transform-origin: bottom;
+    transition: all 0.5s ease-in;
+    position: relative;
+    z-index: 1;
+}
+
+.img_size:hover {
+    cursor: pointer;
+}
+
+.content_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: #f7f7f7;
+    position: absolute;
+    transform-origin: top;
+    transform: translateY(100%) rotateX(90deg);
+    transition: all 0.5s ease-in;
+}
+
+.content_text h2:hover{
+    color: #333;
+}
+
+.content_container:hover .content_text {
+    transform: translateY(0) rotateX(0deg);
+}
+
+.img_container {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+.img_size {
+    width: 100%;
+    transition: all 0.5s;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'BlackHanSans';
+    src: url(../font/BlackHanSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'OpenSansCondensed-Bold';
+    src: url(../font/OpenSansCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'OpenSansCondensed-Light';
+    src: url(../font/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+    font-family: 'Oswald-VariableFont_wght';
+    src: url(../font/Oswald-VariableFont_wght.ttf);
+}
