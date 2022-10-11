@@ -1,0 +1,7 @@
+/*font-face*/
+font-face {
+  font-family: "jabjai";
+  src: url("/assets/font/woff/jabjai.woff") format("woff"), url("/assets/font/ttf/jabjai.ttf") format("truetype");
+  font-weight: noraml;
+  font-style: normal;
+}/*# sourceMappingURL=font.css.map */

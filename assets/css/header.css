@@ -1,7 +1,16 @@
-#header .head-inner {
-  max-width: 1440px;
-  margin: 0 auto;
+#header {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+#header .head-inner .logo {
+  transform-origin: center center;
+  transition: all 0.3s;
 }
 #header .head-inner .logo img {
   max-width: 100px;
+}
+
+#header:hover .head-inner .logo {
+  transform: rotate(360deg);
 }/*# sourceMappingURL=header.css.map */

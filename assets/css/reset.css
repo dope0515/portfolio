@@ -1,7 +1,8 @@
 /* common */
+html {font-size: 62.5%;}
 ul, ol {list-style:none}
 a {display:inline-block; text-decoration:none; color:#0a0a0a;}
-*{font-family:"NotoSansKR" !important; color:#0a0a0a; letter-spacing:unset}
+*{color:#0a0a0a; letter-spacing:unset}
 img {width:100%; line-height:0 !important;}
 body,html {min-width:320px; /*min-height:1500px;*/}
 button {cursor:pointer}
@@ -21,7 +22,6 @@ time, mark, audio, video, input, textarea {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	vertical-align: baseline;
 	box-sizing:border-box;
 }
@@ -54,13 +54,3 @@ caption { width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: po
 label {display:block; font-size:16rem}
 .form-radio-box label, .form-check-box label { display:inline-block; }
 
-@font-face {
-	font-family: "NotoSansKR";
-	src: local("NotoSansCJKkr-Thin"),
-	  url("/en/assets/font/NotoSansCJKkr-Thin.woff2") format("woff2"),
-	  url("/en/assets/font/NotoSansCJKkr-Thin.woff") format("woff"),
-	  url("/en/assets/font/NotoSansCJKkr-Thin.ttf") format("truetype");
-	font-weight: 100;
-	font-style: normal;
-	font-stretch: normal;
- }

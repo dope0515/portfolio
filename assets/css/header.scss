@@ -1,11 +1,23 @@
+@charset "UTF-8"; 
+
 #header {
+    position: fixed;
+    top: 30px;
+    left: 30px;
     .head-inner {
-        max-width: 1440px;
-        margin: 0 auto;
         .logo {
+            transform-origin: center center;
+            transition: all 0.3s;
             img {
                 max-width:100px;
             }
+        }
+    }
+}
+#header:hover {
+    .head-inner {
+        .logo {
+            transform: rotate(360deg);
         }
     }
 }

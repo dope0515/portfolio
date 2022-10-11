@@ -1,0 +1,11 @@
+/*font-face*/
+@mixin font-face($name, $file, $weight: noraml, $style: normal) {
+    font-face {
+        font-family: "#{$name}";
+        src: url('/assets/font/woff/#{$file}.woff') format('woff'), url('/assets/font/ttf/#{$file}.ttf') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+        }
+    }
+  
+  @include font-face('jabjai','jabjai');
