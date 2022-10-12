@@ -13,7 +13,7 @@ section {
   left: 50%;
 }
 #section01 .txt-wrap strong {
-  display: inline-block;
+  display: block;
   font-family: "jabjai";
   font-size: 10rem;
   font-weight: 400;

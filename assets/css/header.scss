@@ -1,4 +1,5 @@
 @charset "UTF-8"; 
+@import 'style.scss';
 
 #header {
     position: fixed;
@@ -8,16 +9,12 @@
         .logo {
             transform-origin: center center;
             transition: all 0.3s;
-            img {
-                max-width:100px;
+            span {
+                font-family: 'jabjai';
+                font-size: $logo;
+                margin-right: 0.4rem;
             }
-        }
-    }
-}
-#header:hover {
-    .head-inner {
-        .logo {
-            transform: rotate(360deg);
+            span:last-child {margin-right: 0;}
         }
     }
 }

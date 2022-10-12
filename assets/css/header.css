@@ -1,3 +1,5 @@
+/* font-size */
+/*font-weight*/
 #header {
   position: fixed;
   top: 30px;
@@ -7,10 +9,11 @@
   transform-origin: center center;
   transition: all 0.3s;
 }
-#header .head-inner .logo img {
-  max-width: 100px;
+#header .head-inner .logo span {
+  font-family: "jabjai";
+  font-size: 2.4rem;
+  margin-right: 0.4rem;
 }
-
-#header:hover .head-inner .logo {
-  transform: rotate(360deg);
+#header .head-inner .logo span:last-child {
+  margin-right: 0;
 }/*# sourceMappingURL=header.css.map */

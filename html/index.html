@@ -31,7 +31,18 @@
         <!--section01-->
         <section id="section01">
             <div class="txt-wrap">
-                <strong>Hello</strong>
+                <strong>Hello? :)</strong>
+                <strong>I'm <br>SeungJoo</strong>
+                <strong>publisher</strong>
+            </div>
+        </section>
+        <!--//section01-->
+        <!--section01-->
+        <section id="section02">
+            <div class="txt-wrap">
+                <strong>Hello? :)</strong>
+                <strong>I'm <br>SeungJoo</strong>
+                <strong>publisher</strong>
             </div>
         </section>
         <!--//section01-->
@@ -40,5 +51,19 @@
     <!--footer-->
     <footer id="footer"></footer>
     <!--//footer-->
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+            gsap.to(".txt-wrap", {
+            scrollTrigger: {
+                trigger: "#section01",
+                markers: true,
+                start: "top top",
+                scrub: true,
+                pin: true,
+            },
+            opacity: 0,
+            duration: 4,
+            });
+    </script>
 </body>
 </html>
