@@ -6,7 +6,9 @@
   left: 30px;
 }
 #header .head-inner .logo {
-  transform-origin: center center;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 #header .head-inner .logo span {
@@ -16,4 +18,4 @@
 }
 #header .head-inner .logo span:last-child {
   margin-right: 0;
-}/*# sourceMappingURL=header.css.map */
+}
